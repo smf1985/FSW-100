@@ -1,0 +1,64 @@
+/* You must include the following:
+At least 2 CSS classes *
+At least 1 HTML id property *
+Style at least 1 child element by first selecting its parent element in CSS *
+Only CSS styling (no HTML inline styling)
+-Make the main headline blue and all other headlines green. *
+-Turn the background of the entire page a light cyan. *
+-Use the font family "Georgia" for all headlines. *
+-Center the text of the main headline and the sub-headline. *
+-Give the paragraphs a line-height of 20 pixels. *
+-Make the bold '90 percent' text also the color light coral. *
+-Remove the underline from the links. (Hint: Google “How to remove the underline from link (anchor) tags”) *
+-Make the "You might also like" label all uppercase. *
+-Make an underline appear when you hover over a link. *
+-Make the image 'float' to the left of the body content. *
+-Add some spacing around the image so the text is not 'pressed against it'. *
+-Change the list items from a "numbered, ordered list" to one that contains just bullets.* */
+
+#main-header {
+    color: blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headliner1 {
+    color: green;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headliner2 {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body > p {
+    line-height: 20px;
+}
+
+b {
+    color: lightcoral;
+}
+
+* {
+    background-color:lightcyan;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    padding: 10px;
+}
+
+.para {
+    text-transform: uppercase;
+}
+
+ol {
+    list-style-type: disc;
+}
+
