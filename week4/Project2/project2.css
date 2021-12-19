@@ -1,0 +1,123 @@
+/* Your website must include:
+-A navbar (this will be a single page website so functional links are not needed), header, footer, and a main section.
+-The main section must include at minimum:  image(s), text, list(s), and table(s). Feel free to add other elements as 
+you see fit. Remember: coding is about practicing code!
+You must use:
+-The CSS box model to better space elements (making use of margins, borders, and padding).
+-The CSS layout position property.
+-A google font (you will need to go to fonts.google.com (Links to an external site.) and get the url for a <link /> on 
+their HTML page)
+-CSS style sheet (no inline styling)
+-HTML5 semantic tags */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+* {
+    background-color: lightslategrey;
+}
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px 0px 0px 12px;
+    padding: 10px;
+}
+.logo {
+    font-family: 'Staatliches', cursive;
+    display: inline;
+    font-size: 45px;
+    color: black;
+    text-align: left;
+}
+nav {
+    display: inline;
+    position: relative;
+    text-align: right;
+    float: right;
+    font-size: 22px;
+}
+.navLink {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    display: inline;
+    margin: 25px 25px;
+    padding: auto;
+    color: black;
+}
+.navLink li {
+    display: inline-block;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+}
+.navLink li a {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+}
+.navLink li a:hover {
+    color: green;
+}
+.mainBody {
+    margin-top: 60px;
+    width: 100%;
+}
+.photo1 {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+.photo1 img {
+    width: 220px; 
+    height: auto;
+    padding: 3px;
+}
+.quote {
+    position: relative;
+    display: inline-block;
+    font-family: 'Bad Script', cursive;
+    font-size: medium;
+    font-weight: bolder;
+}
+.logo2 {
+    position: relative;
+    display: inline-block; 
+    text-align: center;
+    border: 2px solid black;
+    font-size: x-large;
+    width:72%;
+    margin: 10px 10px 10px 10px;
+}
+.quote2 {
+    position: relative;
+    font-family: 'Lobster', cursive;
+}
+.contactUs {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(23, 59, 82);
+    font-weight: bold;
+    padding: 2px;
+}
+.contactUs:hover{
+    color: green;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.vet{
+    position: relative;
+    width: 10px;
+    height: auto;
+    bottom: -110px;
+}
+.vet:hover {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png");
+ }
