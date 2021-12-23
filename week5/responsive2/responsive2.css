@@ -1,0 +1,11 @@
+/* Remake these images using CSS Grid. Feel free to use more pleasant colors.
+Hint: Think ahead about the "smallest common denominator" in terms of how many columns you might want your grid to have.
+Image #1: and Image #2:
+To get started on this section:
+Create a new html and css file, renaming them to: queries.html and styles2.css.
+Link your styles2.css sheet to the queries.html file.
+The next three images should use the same HTML and CSS files, and the same pieces of content, but will display different 
+ on different devices:
+Use CSS media queries to make your layout similar to the images below:
+Phone: and Tablet: and Laptop:
+

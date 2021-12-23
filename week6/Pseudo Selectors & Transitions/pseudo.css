@@ -1,0 +1,15 @@
+/* For this assignment, conduct the following:
+Make 6 small boxes. Each one, when moused over, should change 2 or 3 different properties of the box that was hovered.
+Every event should happen on hover, which you can just use the CSS :hover pseudo-selector for. 
+You choose which properties change, but try to vary it between each box. Here's a non-exhaustive list of something you 
+ could change about each box:
+-Background color
+-Border (width, color, style)
+-Border radius (can target each corner individually if you want)
+-Box shadow
+-Height/width
+-Margin/padding (put some text inside to better see what's happening)
+-Position
+-Opacity
+Challenge Task (no points deducted for not completing): Learn about the HTML5 <audio> tag and insert some music to play 
+ in the background. It's just like you're in the club! */
