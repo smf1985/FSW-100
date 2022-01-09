@@ -13,3 +13,124 @@ You choose which properties change, but try to vary it between each box. Here's 
 -Opacity
 Challenge Task (no points deducted for not completing): Learn about the HTML5 <audio> tag and insert some music to play 
  in the background. It's just like you're in the club! */
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #3f2c55;
+}
+
+.box1:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #2e0a0a;
+    border-color: #20043a;
+    transition: background-color 1s ease-in 1s, width 3s ease-in-out;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #342758;
+}
+
+.box2:hover {
+    width: 500px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #2a2247;
+    transition: background-color 1s ease-in 1s, width 4s ease-in-out;
+    box-shadow: #332849;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #1a0770;
+}
+
+.box3:hover {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #2a3868;
+    transition: background-color 1s ease-in 1s, width 5s ease-in-out;
+    opacity: 20%;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #14e6b8;
+}
+
+.box4:hover {
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #1269ec;
+    transition: background-color 1s ease-in 5s, width 2s ease-in-out;
+    opacity: 30%;
+
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #05e6da;
+}
+
+.box5:hover {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #3c9191;
+    border-style: dashed, double;
+    border-color: rgb(3, 62, 85);
+    transition: background-color 3s ease-in 3s, width 1s ease-in-out;
+    opacity: 40%;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #026b6b;
+}
+
+.box6:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(3, 62, 85);
+    margin-bottom: 20px;
+    background-color: #158f8f;
+    transition: background-color 1s ease-in 1s, width 2s ease-in-out;
+    opacity: 50%;
+}
