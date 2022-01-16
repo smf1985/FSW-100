@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 16rem auto auto 16rem;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    gap: 1rem;
+    height: 100%;
+}
+#header {
+    font-family: 'Staatliches', cursive;
+    background-color: black;
+    grid-column: 1 / 5;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+}
+
+#navLink {
+    font-family: 'Staatliches', cursive;
+    grid-column: 1 / 5;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+#sidebar {
+    font-family: 'Staatliches', cursive;
+    background-color: black;
+    grid-column: 1 / 2;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    display: wrap; 
+}
+
+#content {
+    font-family: 'Staatliches', cursive;
+    background-color: black;
+    grid-column: 2/ 4;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    display: wrap; 
+}
+
+#sidebar-2 {
+    font-family: 'Staatliches', cursive;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 3%;
+    grid-column: 1 / 5;
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px;
+    display: wrap;
+}
+
+#footer {
+    border-radius: 8%;
+    display: flexbox;
+    flex-direction: column;
+    grid-column: 1 / 5;
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: wrap;
+}
+
+#copy {
+    text-align: center;
+}
+
+.vet{
+    position: relative;
+    width: 10px;
+    height: auto;
+}
+
+/* Common Breakpoints
+Mobile: 360 x 720
+Tablet: 768 x 1024
+Laptop: 1366 x 768
+High-res laptop or desktop: 1920 x 1080 */
+
+@media only screen and (min-width: 69em) {
+    #header {
+        grid-column: 1 / 4;
+        font-size: 3em;
+    }
+    #navLink {
+        grid-column: 4 / 6;
+        font-size: 1.5rem;
+        padding: 1em;
+    }
+    #sidebar {
+        grid-column: 1 / 2;
+        font-size: 1.5rem;
+    }
+    #content {
+        grid-column: 2 / 6;
+        font-size: 1.5rem;
+    }
+    #sidebar-2 {
+        grid-column: 2 / 5;
+    }
+    #footer {
+        grid-column: 1 / 5;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    #header {
+        grid-column: 1 / 5;
+    }
+    #navLink {
+        grid-column: 1 / 5;
+    }
+    #sidebar {
+        grid-column: 1 / 5;
+    }
+    #content {
+        grid-column: 1 / 5;
+    }
+    #sidebar-2 {
+        grid-column: 1 / 5;
+    }
+    #footer {
+        grid-column: 1 / 5;
+    }
+}
