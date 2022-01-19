@@ -1,22 +1,40 @@
 * {
   box-sizing: border-box;
-  background-color: rgba(201, 209, 245, 0.664);
+  background-color: rgba(201, 209, 245, .664);
+}
+
+#header {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  padding: 1.250em;
+}
+
+#navLink {
+  position: relative;
+  display: inline;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: .75em;
 }
 
 a {
-  text-decoration: none;
-  padding: 0.313em;
   color: black;
+  text-decoration: none;
 }
-  
+
 a:hover {
-  color: #012e31;
+  color: green;
 }
 
 .columns {
   float: left;
   width: 33.3%;
-  padding: 8px;
+  padding: 0.500em;
 }
   
 .price {
@@ -58,7 +76,29 @@ a:hover {
   text-decoration: none;
   font-size: 18px;
 }
-  
+
+#footer {
+  border-radius: 8%;
+  display: flexbox;
+  flex-direction: column;
+  grid-column: 1 / 5;
+  font-size: 100%;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  display: wrap;
+}
+
+#copy {
+  text-align: center;
+}
+
+.vet{
+  position: relative;
+  width: 10px;
+  height: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;

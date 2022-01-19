@@ -9,25 +9,44 @@
     <link rel="stylesheet" href="contactUs.css">
 </head>
 <body>
-    <a href="capstone.html" class="fas fa-home">Home</a>
+  <div>
+    <header id="header">CS Web Development</header>
+    
+    <nav id="navLink">
+        <ul>
+            <a href="capstone.html" class="fas fa-home">Home</a>
+            <a href="pricing.html" i class="fas fa-dollar-sign">Pricing</a>
+            <a href="capstone.html">About Us</a>
+        </ul>
+    </nav>
+  </div>
+
     <h3 id="form">Contact Form</h3>
+    
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      <label for="email">Emaill</label>
+      <input type="text" id="email" name="email" placeholder="Your email.." required>    
 
-    <label for="email">Emaill</label>
-    <input type="text" id="email" name="email" placeholder="Your email.." required>    
+      <label for="subject">What you are looking for</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <label for="subject">What you are looking for</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <footer id="footer">
+    <div id="copy">
+        &copy; Copyright 2021 Stephanie Freeman
+    </div>
+    <div class="vet">
+        <img src="https://cdn.shopify.com/s/files/1/0189/2604/3200/files/435608C7-644A-4548-BD4A-EA00058A9A70_600x600@2x.png?v=1581794898"alt="Vet Logo"width="100">            
+    </div>
+  </footer> 
 </body>
 </html>

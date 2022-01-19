@@ -1,48 +1,90 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(126, 190, 185);
+}
+
 * {
   box-sizing: border-box;
 }
 
-a {
-  display: inline;
+#header {
   position: relative;
-  text-decoration: none;
-  text-align: right;
-  float: right;
-  padding: 0.313em;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
   color: black;
+  font-weight: bold;
+  padding: 1.250em;
+}
+
+#navLink {
+  position: relative;
+  display: inline;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1.250em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #012e31;
+  color: green;
 }
 
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid rgb(100, 98, 98);
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(100, 98, 98);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
   
-  input[type=submit] {
-    background-color: #47a583;
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+input[type=submit] {
+  background-color: #47a583;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
   
-  input[type=submit]:hover {
-    background-color: #012e31;
-  }
+input[type=submit]:hover {
+  background-color: #012e31;
+}
   
-  .container {
-    border-radius: 5px;
-    background-color: #1599aa;
-    padding: 20px;
-  }
+.container {
+  border-radius: 5px;
+  background-color: #1599aa;
+  padding: 20px;
+}
+
+#footer {
+  border-radius: 8%;
+  display: flexbox;
+  flex-direction: column;
+  grid-column: 1 / 5;
+  font-size: 100%;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  display: wrap;
+}
+
+#copy {
+  text-align: center;
+}
+
+.vet{
+  position: relative;
+  width: 10px;
+  height: auto;
+}
+
+
